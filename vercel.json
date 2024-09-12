@@ -10,7 +10,12 @@
       {
         "src": "/api/(.*)",
         "dest": "/backend/api/$1"
+      },
+      {
+        "src": "/",
+        "dest": "/backend/api/home.js"
       }
     ]
+    
   }
   
